@@ -1,4 +1,3 @@
-import React, { ReactNode } from 'react';
 import styled from '@emotion/styled';
 import BookMarkCard from './BookMarkCard';
 

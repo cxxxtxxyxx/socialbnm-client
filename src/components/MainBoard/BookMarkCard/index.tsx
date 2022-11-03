@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from '@emotion/styled';
 import BookItem from './BookItem/index';
 import { AiOutlineMenu } from 'react-icons/Ai';
@@ -66,7 +65,7 @@ const BookMarkCardBlock = styled.div`
 export default function BookMarkCard() {
   return (
     <BookMarkCardBlock>
-      <div className="card__header">
+      <div className='card__header'>
         <header>Category</header>
         <button>
           <AiOutlineMenu />
@@ -113,7 +112,7 @@ export default function BookMarkCard() {
           <BookItem />
         </li>
       </ul>
-      <button className="add__btn">Add a card</button>
+      <button className='add__btn'>Add a card</button>
     </BookMarkCardBlock>
   );
 }

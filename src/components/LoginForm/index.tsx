@@ -1,4 +1,3 @@
-import React, { useCallback, useState } from 'react';
 import styled from '@emotion/styled';
 
 const LoginFormBlock = styled.div`
@@ -63,9 +62,9 @@ export default function LoginForm() {
   return (
     <LoginFormBlock>
       <span>LOGIN</span>
-      <form action="POST">
-        <input type="text" placeholder="ID" />
-        <input type="password" placeholder="PASSWORD" />
+      <form action='POST'>
+        <input type='text' placeholder='ID' />
+        <input type='password' placeholder='PASSWORD' />
       </form>
       <button>Login</button>
     </LoginFormBlock>

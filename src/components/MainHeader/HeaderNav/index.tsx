@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
@@ -22,13 +21,13 @@ export default function HeaderNav() {
     <HeaderNavBlock>
       <ul>
         <li>
-          <NavLink to="/login">LOGIN</NavLink>
+          <NavLink to='/login'>LOGIN</NavLink>
         </li>
         <li>
-          <NavLink to="/home">HOME</NavLink>
+          <NavLink to='/home'>HOME</NavLink>
         </li>
         <li>
-          <NavLink to="/about">ABOUT</NavLink>
+          <NavLink to='/about'>ABOUT</NavLink>
         </li>
       </ul>
     </HeaderNavBlock>

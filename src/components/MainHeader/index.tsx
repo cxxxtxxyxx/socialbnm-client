@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from '@emotion/styled';
 import HeaderTitle from './HeaderTitle/index';
 import HeaderNav from './HeaderNav/index';
