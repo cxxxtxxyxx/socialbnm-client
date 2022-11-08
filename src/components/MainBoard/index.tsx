@@ -3,11 +3,10 @@ import BookMarkCard from './BookMarkCard';
 
 const MainBoardBlock = styled.div`
   display: flex;
-  padding: 15px;
+  padding: 130px 0 45px 0;
   background: #f9ebde;
-  height: 100vh;
+  height: 100%;
   overflow-x: auto;
-  overflow-y: hidden;
 `;
 
 export default function MainBoard() {

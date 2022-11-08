@@ -3,6 +3,8 @@ import HeaderTitle from './HeaderTitle/index';
 import HeaderNav from './HeaderNav/index';
 
 const MainHeaderBlock = styled.div`
+  position: fixed;
+  width: 100vw;
   display: flex;
   padding: 20px 40px;
   color: #f9ebde;
